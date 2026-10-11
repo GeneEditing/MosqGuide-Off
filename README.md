@@ -19,16 +19,16 @@ The environment specifies PyTorch `1.13.0+cu117` and the required Python package
 
 The repository contains the source code, small PyTorch checkpoints, and probability calibrators. For inference, download only the random forest model for the selected profile; the six processed CSV files are for training and evaluation. Save downloaded files at the **repository-relative paths** below. The two model directories contain files with identical names and must be kept separate.
 
-| Save as | Download |
-|---|---|
-| `pam_ngg/data/train.csv` | [Download](http://1.12.219.134/1s2ZOEQeaKN3KC9a7qNF/resources/MosqGuide-Off/pam_ngg/data/train.csv) |
-| `pam_ngg/data/val.csv` | [Download](http://1.12.219.134/1s2ZOEQeaKN3KC9a7qNF/resources/MosqGuide-Off/pam_ngg/data/val.csv) |
-| `pam_ngg/data/test.csv` | [Download](http://1.12.219.134/1s2ZOEQeaKN3KC9a7qNF/resources/MosqGuide-Off/pam_ngg/data/test.csv) |
-| `pam_ngg/checkpoints/rf_handcrafted_baseline.joblib` | [Download](http://1.12.219.134/1s2ZOEQeaKN3KC9a7qNF/resources/MosqGuide-Off/pam_ngg/checkpoints/rf_handcrafted_baseline.joblib) |
-| `pam_agnostic/data/train.csv` | [Download](http://1.12.219.134/1s2ZOEQeaKN3KC9a7qNF/resources/MosqGuide-Off/pam_agnostic/data/train.csv) |
-| `pam_agnostic/data/val.csv` | [Download](http://1.12.219.134/1s2ZOEQeaKN3KC9a7qNF/resources/MosqGuide-Off/pam_agnostic/data/val.csv) |
-| `pam_agnostic/data/test.csv` | [Download](http://1.12.219.134/1s2ZOEQeaKN3KC9a7qNF/resources/MosqGuide-Off/pam_agnostic/data/test.csv) |
-| `pam_agnostic/checkpoints/rf_handcrafted_baseline.joblib` | [Download](http://1.12.219.134/1s2ZOEQeaKN3KC9a7qNF/resources/MosqGuide-Off/pam_agnostic/checkpoints/rf_handcrafted_baseline.joblib) |
+| Save as | HTTP download URL (copy into your browser if clicking does not start the download) |
+| --- | --- |
+| `pam_ngg/data/train.csv` | `http://1.12.219.134/1s2ZOEQeaKN3KC9a7qNF/resources/MosqGuide-Off/pam_ngg/data/train.csv` |
+| `pam_ngg/data/val.csv` | `http://1.12.219.134/1s2ZOEQeaKN3KC9a7qNF/resources/MosqGuide-Off/pam_ngg/data/val.csv` |
+| `pam_ngg/data/test.csv` | `http://1.12.219.134/1s2ZOEQeaKN3KC9a7qNF/resources/MosqGuide-Off/pam_ngg/data/test.csv` |
+| `pam_ngg/checkpoints/rf_handcrafted_baseline.joblib` | `http://1.12.219.134/1s2ZOEQeaKN3KC9a7qNF/resources/MosqGuide-Off/pam_ngg/checkpoints/rf_handcrafted_baseline.joblib` |
+| `pam_agnostic/data/train.csv` | `http://1.12.219.134/1s2ZOEQeaKN3KC9a7qNF/resources/MosqGuide-Off/pam_agnostic/data/train.csv` |
+| `pam_agnostic/data/val.csv` | `http://1.12.219.134/1s2ZOEQeaKN3KC9a7qNF/resources/MosqGuide-Off/pam_agnostic/data/val.csv` |
+| `pam_agnostic/data/test.csv` | `http://1.12.219.134/1s2ZOEQeaKN3KC9a7qNF/resources/MosqGuide-Off/pam_agnostic/data/test.csv` |
+| `pam_agnostic/checkpoints/rf_handcrafted_baseline.joblib` | `http://1.12.219.134/1s2ZOEQeaKN3KC9a7qNF/resources/MosqGuide-Off/pam_agnostic/checkpoints/rf_handcrafted_baseline.joblib` |
 
 <details>
 <summary>SHA-256 checksums for the eight downloaded files</summary>
@@ -120,8 +120,6 @@ Both configurations have 116 training guides, 15 validation guides, and 15 test 
 
 Each CSV contains `guide_id`, `sgRNA`, `off_target`, `mismatch_count`, `label`, `spacer`, `dataset`, `assay`, and `source`.
 
-## Citation and license
-
-If you use the source data, cite: Yaish, O. and Orenstein, Y. (2024). “Generating, modeling and evaluating a large-scale set of CRISPR/Cas9 off-target sites with bulges.” *Nucleic Acids Research*. [https://doi.org/10.1093/nar/gkae428](https://doi.org/10.1093/nar/gkae428).
+## License
 
 This project is licensed under the MIT License. See [LICENSE](LICENSE) in the repository.
