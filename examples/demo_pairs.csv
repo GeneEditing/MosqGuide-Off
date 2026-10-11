@@ -1,0 +1,2 @@
+candidate_id,guide_id,sgRNA_20nt,off_target_20nt,candidate_pam,guide_pam
+candidate_000000001,gRNA_0001,TTAGAGCCTATTTAGATTGA,TCAGAGACATTTCAGTTTGA,GGG,GGG

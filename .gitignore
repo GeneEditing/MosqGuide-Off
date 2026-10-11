@@ -1,0 +1,13 @@
+# Large files distributed separately (see README download paths).
+/pam_ngg/data/train.csv
+/pam_ngg/data/val.csv
+/pam_ngg/data/test.csv
+/pam_ngg/checkpoints/rf_handcrafted_baseline.joblib
+/pam_agnostic/data/train.csv
+/pam_agnostic/data/val.csv
+/pam_agnostic/data/test.csv
+/pam_agnostic/checkpoints/rf_handcrafted_baseline.joblib
+
+# Python bytecode caches.
+__pycache__/
+*.pyc

@@ -1,0 +1,8 @@
+RF handcrafted-feature model - top 5 important features
+Validation AUROC: 0.8349 | AUPRC: 0.1923
+
+1. mismatch_type_G>A: 0.1276
+2. guide_GC_content: 0.0938
+3. pam_proximal_mismatch_count: 0.0892
+4. pam_pos3_G: 0.0719
+5. total_mismatch_count: 0.0595

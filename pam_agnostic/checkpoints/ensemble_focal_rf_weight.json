@@ -1,0 +1,6 @@
+{
+  "dl_checkpoint_path": "checkpoints/offtarget_pam_agnostic_focal_best.pt",
+  "rf_model_path": "checkpoints/rf_handcrafted_baseline.joblib",
+  "blend_weight_dl": 0.84,
+  "decision_threshold": 0.32078665378435267
+}
