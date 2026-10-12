@@ -1,6 +1,10 @@
 # MosqGuide-Off
 
-MosqGuide-Off predicts an off-target activity probability for a supplied gRNA–candidate-site sequence pair. It provides an NGG-specific model (`pam_ngg`, 23 nt) and a PAM-agnostic model (`pam_agnostic`, 20 nt). Each combines a deep learning model and a random forest using probability calibration and ensemble prediction. The random forest uses handcrafted features, supports feature importance analysis, and contributes to prediction alongside the deep learning model.
+MosqGuide-Off predicts an off-target activity probability for a supplied gRNA–candidate-site sequence pair. It provides an NGG-specific model (pam_ngg, 23 nt) and a PAM-agnostic model (pam_agnostic, 20 nt). Each combines a deep learning model and a random forest using probability calibration and ensemble prediction. The random forest uses handcrafted features, supports feature importance analysis, and contributes to prediction alongside the deep learning model.
+
+![NGG-specific deep learning model architecture](img/ngg_deep_learning_architecture.jpg)
+
+*Figure 1. Architecture of the NGG-specific deep learning model. Paired 23-nt sequences pass through sequence-pair embeddings, multiscale convolutions, self-attention, and a probability prediction layer.*
 
 This repository demonstrates off-target models that output a predicted probability for a single gRNA–candidate-site sequence pair. For guide-level off-target risk and on-target activity assessment, refer to [MosqEdits-full-pipeline](https://github.com/GeneEditing/MosqEdits-full-pipeline).
 
